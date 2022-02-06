@@ -1,0 +1,8 @@
+mport requests
+from bs4 import BeautifulSoup
+r=requests.get('https://generated.photos/faces/natural/front-facing/young-adult/white-race/brown-hair/short/joy/female/brown-eyes')
+soup=BeautifulSoup(r.content)
+di=soup.find('div',attrs={'class':'grid-photos'})
+im=di.find_all('img')
+links=[i['src'] for i in im]
+links

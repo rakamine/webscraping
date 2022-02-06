@@ -1,0 +1,20 @@
+mport requests
+from bs4 import BeautifulSoup
+r=requests.get('https://generated.photos/faces/natural/front-facing/young-adult/white-race/brown-hair/short/joy/female/brown-eyes')
+soup=BeautifulSoup(r.content)
+di=soup.find('div',attrs={'class':'grid-photos'})
+im=di.find_all('img')
+links=[i['src'] for i in im]
+links
+
+
+Shampoo pantene
+7500435169370
+
+https://www.google.com.br/search?q=7500435169370&hl=pt-BR&tbm=isch&sxsrf=APq-WBvj2Mpu84c6Tcnd7UH9qZLldAnTtg%3A1644103892922&source=hp&biw=1920&bih=969&ei=1Aj_YffLNp605OUPv7-r8Ak&iflsig=AHkkrS4AAAAAYf8W5LIXeI7zwSd2XqYk-T_F1QNogDeR&ved=0ahUKEwj3hYqk3On1AhUeGrkGHb_fCp4Q4dUDCAY&uact=5&oq=7500435169370&gs_lcp=CgNpbWcQAzIHCCMQ7wMQJ1AAWABg5wJoAHAAeACAAVuIAVuSAQExmAEAoAECoAEBqgELZ3dzLXdpei1pbWc&sclient=img
+
+
+Sabonete
+7891150060449
+
+https://www.google.com.br/search?q=7891150060449&hl=pt-BR&tbm=isch&sxsrf=APq-WBvj2Mpu84c6Tcnd7UH9qZLldAnTtg%3A1644103892922&source=hp&biw=1920&bih=969&ei=1Aj_YffLNp605OUPv7-r8Ak&iflsig=AHkkrS4AAAAAYf8W5LIXeI7zwSd2XqYk-T_F1QNogDeR&ved=0ahUKEwj3hYqk3On1AhUeGrkGHb_fCp4Q4dUDCAY&uact=5&oq=7500435169370&gs_lcp=CgNpbWcQAzIHCCMQ7wMQJ1AAWABg5wJoAHAAeACAAVuIAVuSAQExmAEAoAECoAEBqgELZ3dzLXdpei1pbWc&sclient=img
